@@ -32,11 +32,7 @@ li {
     z-index: 999;
 }
 
-.navbar:hover {
-    width: 40%;
-    background-color: rgba(0, 0, 0, .6) !important;
-    border-radius: 8px;
-}
+
 
 .navbar-brand {
     animation: animate 1s infinite alternate;
@@ -66,7 +62,7 @@ li {
 
 .dropdown-menu[data-bs-popper] {
     left: -160px;
-    top: 0;
+    top: 100%;
 }
 
 
